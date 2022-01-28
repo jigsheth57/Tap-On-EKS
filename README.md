@@ -21,5 +21,5 @@ This document provides an instructions for MacOS on installing Tanzu Application
 ## Standup EKS Cluster
 - Start `jupyter lab` and open `CreateEKSCluster` notebook.
 
-## Standup Harbor Registry
+## Standup Secure Harbor Registry
 - Start `jupyter lab` and open `StandupHarbor` notebook.
