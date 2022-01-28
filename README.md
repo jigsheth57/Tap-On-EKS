@@ -7,6 +7,7 @@ This document provides an instructions for MacOS on installing Tanzu Application
   - Kubectl ([brew install kubernetes-cli](https://formulae.brew.sh/formula/kubernetes-cli#default))
   - Kubectx ([brew install kubectx](https://formulae.brew.sh/formula/kubectx#default))
   - Knative ([brew install kn](https://formulae.brew.sh/formula/kn#default))
+  - Kpack ([brew tap vmware-tanzu/kpack-cli && brew install kp](https://github.com/vmware-tanzu/kpack-cli/blob/main/docs/kp.md))
   - Jq ([brew install jq](https://formulae.brew.sh/formula/jq#default))
   - Jupyterlab ([brew install jupyterlab](https://formulae.brew.sh/formula/jupyterlab#default)) (Here's the [detail instructions](https://medium.com/@iamclement/how-to-install-jupyter-notebook-on-mac-using-homebrew-528c39fd530f))
   - Pivnet ([brew install pivotal/tap/pivnet-cli](https://github.com/pivotal-cf/pivnet-cli))
