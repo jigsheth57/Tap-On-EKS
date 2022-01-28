@@ -10,8 +10,6 @@ This document provides an instructions for MacOS on installing Tanzu Application
   - Jq ([brew install jq](https://formulae.brew.sh/formula/jq#default))
   - Jupyterlab ([brew install jupyterlab](https://formulae.brew.sh/formula/jupyterlab#default)) (Here's the [detail instructions](https://medium.com/@iamclement/how-to-install-jupyter-notebook-on-mac-using-homebrew-528c39fd530f))
   - Pivnet ([brew install pivotal/tap/pivnet-cli](https://github.com/pivotal-cf/pivnet-cli))
-  - Carvel Tooling ([brew tap vmware-tanzu/carvel && brew install ytt kbld kapp kwt imgpkg vendir](https://github.com/vmware-tanzu/homebrew-carvel))
-  - Helm ([brew install helm](https://formulae.brew.sh/formula/helm))
 
 2. Configure `aws` cli to [work with your credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
 3. Retrieve/create **UAA API TOKEN** on [TanzuNet](https://network.pivotal.io/) under __Edit Profile__ and __REQUEST NEW REFRESH TOKEN__ and configure your system environment with `export API_TOKEN=YourToken`
