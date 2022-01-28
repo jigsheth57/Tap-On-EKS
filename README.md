@@ -15,7 +15,7 @@ This document provides an instructions for MacOS on installing Tanzu Application
 
 2. Configure `aws` cli to [work with your credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
 3. Retrieve/create **UAA API TOKEN** on [TanzuNet](https://network.pivotal.io/) under __Edit Profile__ and __REQUEST NEW REFRESH TOKEN__ and configure your system environment with `export API_TOKEN=YourToken`
-4. Install Bosh kernal for Jupyterlab.
+4. Install Bash kernal for Jupyterlab.
 `pip install bash_kernel && python -m bash_kernel.install`
 
 ## Standup EKS Cluster
